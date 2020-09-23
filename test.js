@@ -25,7 +25,7 @@ player.addListener({
     onAppReady: (app) => {
       if (!app.songUrl) {
         // URLを指定して楽曲をもとにした動画データを作成
-        p.createFromSongUrl("your favorite media url here...");
+        p.createFromSongUrl("http://www.youtube.com/watch?v=KdNHFKTKX2s");
       }
       if (!app.managed) {
         // 再生コントロールを表示
